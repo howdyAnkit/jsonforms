@@ -20,9 +20,6 @@
     "build:examples-app": "lerna run build:examples-app && node packages/examples-app/prepare-examples-app.js"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.5",
-    "@babel/plugin-proposal-optional-chaining": "^7.16.5",
-    "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@types/jest": "^27.4.1",
     "@types/lodash": "^4.14.149",
     "ajv": "^8.6.1",
@@ -48,5 +45,8 @@
     "typescript": "4.2.3",
     "webpack": "^4.41.2",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "npm-check": "^6.0.1"
   }
 }

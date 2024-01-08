@@ -20,16 +20,7 @@ module.exports = {
           ],
         },
         exclude: /node_modules/,
-      },
-      {
-        test: /\.ts$/,
-        loaders: [
-          {
-            loader: 'ts-loader',
-          },
-          'angular2-template-loader',
-        ],
-      },
+      }
       {
         test: /.+\.ts$/,
         exclude: /(index.ts|mocks.ts|\.spec\.ts|\.test\.ts$)/,
